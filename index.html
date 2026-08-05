@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Uma surpresa de Kelvin para Livia — 02 meses de nós.">
+  <title>Kelvin + Livia — 02 meses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/images/foto-01.jpg" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body class="is-locked">
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- LOADING -->
+  <div class="loader" id="loader" aria-label="Preparando a surpresa">
+    <span class="loader__mark">K + L</span>
+    <span class="loader__track"><span class="loader__bar"></span></span>
+  </div>
+
+  <!-- ABERTURA -->
+  <section class="opening" id="opening" aria-labelledby="opening-title">
+    <div class="opening__orb" aria-hidden="true"></div>
+    <div class="opening__corner opening__corner--top" aria-hidden="true">KELVIN · LIVIA</div>
+    <div class="opening__content">
+      <p class="eyebrow">uma pequena celebração</p>
+      <h1 id="opening-title"><span class="opening__number">02</span><span>meses.</span></h1>
+      <p class="opening__names"><span data-person="1">Kelvin</span> <i>+</i> <span data-person="2">Livia</span></p>
+      <p class="opening__note">fiz uma coisinha pra você.</p>
+      <button class="button button--primary" id="start-experience" type="button">
+        <span>Ver surpresa</span><span class="button__arrow" aria-hidden="true">↘</span>
+      </button>
+    </div>
+    <div class="opening__corner opening__corner--bottom" aria-hidden="true">DESDE <span data-date>00·00·0000</span></div>
+  </section>
+
+  <!-- PLAYER DE MÚSICA -->
+  <aside class="music-player" id="music-player" aria-label="Controle da nossa música">
+    <button class="music-player__button" id="music-toggle" type="button" aria-label="Tocar nossa música" aria-pressed="false">
+      <span class="music-player__pause" aria-hidden="true"></span>
+    </button>
+    <div class="music-player__copy">
+      <span>Nossa música</span>
+      <small id="music-status">preparando…</small>
+    </div>
+    <div class="music-player__bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </aside>
+  <div class="youtube-player-host" aria-hidden="true">
+    <div id="youtube-player"></div>
+  </div>
+
+  <main id="experience" aria-hidden="true">
+    <!-- FOTO PRINCIPAL -->
+    <section class="hero-moment panel" id="inicio">
+      <figure class="hero-moment__media media-frame">
+        <img class="photo-01" src="assets/images/foto-01.jpg" width="2268" height="4032" alt="Kelvin e Livia sorrindo juntos diante da cidade" fetchpriority="high">
+      </figure>
+      <p class="hero-moment__caption reveal-text">02 meses de nós.</p>
+      <span class="hero-moment__index" aria-hidden="true">01 / 09</span>
+      <div class="scroll-cue" aria-hidden="true"><span>continue</span><i></i></div>
+    </section>
+
+    <!-- GALERIA 01 -->
+    <section class="dynamic-gallery panel" aria-label="Momentos de Kelvin e Livia">
+      <div class="section-marker" aria-hidden="true"><span>02</span><i></i><span>momentos</span></div>
+      <div class="dynamic-gallery__stage">
+        <figure class="photo-card photo-card--left media-frame">
+          <img class="photo-02" src="assets/images/foto-02.jpg" width="3213" height="5712" alt="As mãos de Kelvin e Livia com suas alianças" loading="lazy">
+        </figure>
+        <figure class="photo-card photo-card--right media-frame">
+          <img class="photo-03" src="assets/images/foto-03.jpg" width="3213" height="5712" alt="Kelvin e Livia sorrindo diante do espelho" loading="lazy">
+        </figure>
+        <figure class="photo-card photo-card--center media-frame">
+          <img class="photo-04" src="assets/images/foto-04.jpg" width="3024" height="4032" alt="Kelvin e Livia sorrindo bem próximos" loading="lazy">
+        </figure>
+      </div>
+      <p class="dynamic-gallery__aside">os detalhes que<br>eu quero guardar.</p>
+    </section>
+
+    <!-- FRASE -->
+    <section class="quote-moment panel">
+      <span class="quote-moment__ghost" aria-hidden="true">02</span>
+      <figure class="quote-moment__photo media-frame">
+        <img class="photo-05" src="assets/images/foto-05.jpg" width="3213" height="5712" alt="Kelvin e Livia juntos diante do espelho" loading="lazy">
+      </figure>
+      <div class="quote-moment__copy">
+        <blockquote class="quote-moment__text" data-split-words>gosto muito da vida<br>quando ela tem você nela.</blockquote>
+        <small>K + L</small>
+      </div>
+    </section>
+
+    <!-- VIDEO 01 -->
+    <section class="video-moment video-moment--large panel">
+      <div class="video-moment__label section-marker"><span>04</span><i></i><span>em movimento</span></div>
+      <div class="video-shell" data-video-shell>
+        <video src="assets/videos/vd-01.mp4" width="1080" height="1920" muted loop playsinline preload="metadata" aria-label="Vídeo vertical de Kelvin e Livia"></video>
+        <button class="video-control" type="button" aria-label="Pausar vídeo">II</button>
+      </div>
+      <p class="video-moment__note">um instante que<br>merecia durar mais.</p>
+    </section>
+
+    <!-- MEMÓRIAS -->
+    <section class="memories panel">
+      <header class="memories__header">
+        <p class="eyebrow">coleção particular</p>
+        <h2>algumas das<br><em>minhas favoritas.</em></h2>
+      </header>
+      <div class="memory-pile">
+        <figure class="memory memory--1 media-frame"><img class="photo-02" src="assets/images/foto-02.jpg" width="3213" height="5712" alt="Detalhe das mãos e alianças do casal" loading="lazy"><figcaption>K + L</figcaption></figure>
+        <figure class="memory memory--2 media-frame"><img class="photo-03" src="assets/images/foto-03.jpg" width="3213" height="5712" alt="Kelvin e Livia em uma memória diante do espelho" loading="lazy"><figcaption>nós dois</figcaption></figure>
+        <figure class="memory memory--3 media-frame"><img class="photo-01" src="assets/images/foto-01.jpg" width="2268" height="4032" alt="Kelvin e Livia sorrindo juntos" loading="lazy"><figcaption>02 meses</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- VIDEO 03 -->
+    <section class="video-moment video-moment--cinema panel">
+      <div class="video-cinema__heading">
+        <div class="section-marker"><span>05</span><i></i><span>um pequeno filme</span></div>
+        <p>alguns segundos<br>que ficaram.</p>
+      </div>
+      <div class="video-shell" data-video-shell>
+        <video src="assets/videos/vd-03.mp4" width="1024" height="576" muted loop playsinline preload="metadata" aria-label="Terceiro vídeo de Kelvin e Livia"></video>
+        <button class="video-control" type="button" aria-label="Pausar vídeo">II</button>
+      </div>
+      <span class="video-cinema__number" aria-hidden="true">03</span>
+    </section>
+
+    <!-- CONTADOR: ESTAMOS JUNTOS DESDE -->
+    <section class="relationship-counter panel" aria-labelledby="counter-title">
+      <span class="relationship-counter__ghost" aria-hidden="true">04.06</span>
+      <div class="relationship-counter__inner">
+        <header class="relationship-counter__intro">
+          <p class="eyebrow">desde aquele dia…</p>
+          <h2 id="counter-title">estamos juntos há</h2>
+        </header>
+
+        <div class="love-time" id="relationship-timer" role="timer" aria-live="off" aria-label="Tempo de namoro">
+          <div class="time-unit time-unit--months">
+            <span class="time-unit__number" data-counter="months">00</span>
+            <small>meses</small>
+          </div>
+          <div class="love-time__details">
+            <div class="time-unit">
+              <span class="time-unit__number" data-counter="days">00</span>
+              <small>dias</small>
+            </div>
+            <div class="time-unit">
+              <span class="time-unit__number" data-counter="hours">00</span>
+              <small>horas</small>
+            </div>
+            <div class="time-unit">
+              <span class="time-unit__number" data-counter="minutes">00</span>
+              <small>minutos</small>
+            </div>
+            <div class="time-unit time-unit--seconds">
+              <span class="time-unit__number" data-counter="seconds">00</span>
+              <small>segundos</small>
+            </div>
+          </div>
+        </div>
+
+        <footer class="relationship-counter__footer">
+          <p>04.06.2026 <i></i> 11:00</p>
+          <span><span data-person="1">Kelvin</span> + <span data-person="2">Livia</span></span>
+          <small>e contando…</small>
+        </footer>
+      </div>
+    </section>
+
+    <!-- NOVAS MEMÓRIAS -->
+    <section class="layered-memories panel" aria-label="Duas novas memórias de Kelvin e Livia">
+      <div class="layered-memories__sticky">
+        <div class="section-marker layered-memories__marker"><span>07—08</span><i></i><span>mais de nós</span></div>
+        <figure class="layered-photo layered-photo--back media-frame">
+          <img class="photo-07" src="assets/images/foto-07.jpeg" width="1066" height="1600" alt="Kelvin e Livia abraçados sob uma luz vermelha" loading="lazy">
+        </figure>
+        <figure class="layered-photo layered-photo--front media-frame">
+          <img class="photo-08" src="assets/images/foto-08.jpeg" width="720" height="1280" alt="Kelvin e Livia sorrindo juntos sob a luz do pôr do sol" loading="lazy">
+        </figure>
+        <p class="layered-memories__caption">entre luzes,<br><em>o mesmo sorriso.</em></p>
+        <span class="layered-memories__names" aria-hidden="true">KELVIN · LIVIA</span>
+      </div>
+    </section>
+
+    <!-- FOTO FULLSCREEN -->
+    <section class="expanding-photo panel">
+      <div class="expanding-photo__sticky">
+        <figure class="expanding-photo__media media-frame">
+          <img class="photo-06" src="assets/images/foto-06.jpg" width="3213" height="5712" alt="Kelvin e Livia juntos sob o céu aberto" loading="lazy">
+          <div class="expanding-photo__shade"></div>
+          <figcaption>e ainda temos tanta<br>coisa pra viver.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VIDEO 02 -->
+    <section class="video-moment video-moment--small panel">
+      <span class="video-moment__monogram" aria-hidden="true">K + L</span>
+      <div class="video-shell" data-video-shell>
+        <video src="assets/videos/vd-02.mp4" width="1024" height="576" muted loop playsinline preload="metadata" aria-label="Vídeo horizontal de Kelvin e Livia"></video>
+        <button class="video-control" type="button" aria-label="Pausar vídeo">II</button>
+      </div>
+      <span class="video-moment__tiny">dois meses · infinitos detalhes</span>
+    </section>
+
+    <!-- SEQUÊNCIA RÁPIDA -->
+    <section class="flashes panel" aria-label="Flashes de memórias">
+      <div class="flashes__sticky">
+        <p class="flashes__label">pisca.<br><em>mais uma memória.</em></p>
+        <div class="flashes__stack">
+          <figure class="flash media-frame"><img class="photo-04" src="assets/images/foto-04.jpg" width="3024" height="4032" alt="Flash de Kelvin e Livia sorrindo" loading="lazy"></figure>
+          <figure class="flash media-frame"><img class="photo-05" src="assets/images/foto-05.jpg" width="3213" height="5712" alt="Flash do casal diante do espelho" loading="lazy"></figure>
+          <figure class="flash media-frame"><img class="photo-02" src="assets/images/foto-02.jpg" width="3213" height="5712" alt="Flash das alianças do casal" loading="lazy"></figure>
+          <figure class="flash media-frame"><img class="photo-06" src="assets/images/foto-06.jpg" width="3213" height="5712" alt="Flash de Kelvin e Livia sob o céu" loading="lazy"></figure>
+        </div>
+        <span class="flashes__counter" aria-hidden="true">01 — 04</span>
+      </div>
+    </section>
+
+    <!-- VIDEO 04 -->
+    <section class="video-moment video-moment--intimate panel">
+      <span class="video-intimate__ghost" aria-hidden="true">04</span>
+      <p class="video-intimate__intro">só mais um instante<br><em>pra guardar.</em></p>
+      <div class="video-shell" data-video-shell>
+        <video src="assets/videos/vd-04.mp4" width="464" height="832" muted loop playsinline preload="metadata" aria-label="Quarto vídeo de Kelvin e Livia"></video>
+        <button class="video-control" type="button" aria-label="Pausar vídeo">II</button>
+      </div>
+      <small>K + L · 02</small>
+    </section>
+
+    <!-- CARTA -->
+    <section class="letter-invitation panel">
+      <div class="letter-invitation__line" aria-hidden="true"></div>
+      <div class="letter-invitation__content">
+        <p class="letter-invitation__name">Livia,</p>
+        <p class="letter-invitation__message">eu também escrevi<br>uma coisa pra você.</p>
+        <button class="button button--outline" id="open-letter" type="button"><span>Ler minha carta</span><span aria-hidden="true">＋</span></button>
+      </div>
+      <span class="letter-invitation__seal" aria-hidden="true">K / L</span>
+    </section>
+
+    <!-- FINAL -->
+    <section class="final-moment panel">
+      <figure class="final-moment__media media-frame"><img class="photo-01" src="assets/images/foto-01.jpg" width="2268" height="4032" alt="Kelvin e Livia celebrando dois meses" loading="lazy"></figure>
+      <div class="final-moment__shade"></div>
+      <div class="final-moment__content">
+        <p>feliz 2 meses pra nós.</p>
+        <h2><span data-person="1">Kelvin</span> <i>+</i> <span data-person="2">Livia</span></h2>
+        <small>isso é só o começo de muita coisa boa.</small>
+        <span class="final-moment__heart" aria-label="com amor">♥</span>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="letter-modal" id="letter-modal" aria-labelledby="letter-title">
+    <div class="letter-modal__backdrop" data-close-letter></div>
+    <article class="letter-paper">
+      <button class="letter-paper__close" id="close-letter" type="button" aria-label="Fechar carta">Fechar <span aria-hidden="true">×</span></button>
+      <div class="letter-paper__meta"><span>para Livia</span><span>02 meses</span></div>
+      <h2 id="letter-title">Livia,</h2>
+      <!-- COLE A CARTA DE KELVIN PARA LIVIA AQUI -->
+      <div class="letter-paper__body">
+        <p>Meu amor, essa é uma carta que vou escrever por vários dias até encontrar o momento certo pra te entregar. Estou começando essa carta às 03h57 da madrugada, porque não consigo parar de pensar em você… estou com tanta saudade e sinto que isso está afetando minha cabeça. Estou sensível e qualquer coisa que acontece, um minuto que você demora, eu penso que, sei lá, você não me quer mais… Mas eu sei que é só minha cabeça, traumas ou algo do tipo, porque eu sinto o seu amor. Não é como se fosse um simples “eu te amo” ou que você gosta da minha companhia… Eu sinto, e espero que eu faça você sentir também. Quando eu penso em você, meu coração bate mais forte e sinto uma alegria dentro de mim, uma sensação tão gostosa que eu nem sei explicar. É como se você tivesse o poder de me fazer feliz até dormindo, que no caso é esse momento que estou escrevendo rs. Provavelmente você está me olhando com uma cara de “estava fazendo o que acordado esse horário?”, e respondendo essa sua dúvida: estou expressando meus sentimentos pra você!</p>
+        <p>Cansei de fazer cartas falando “quando você chegou tudo mudou”, “quando te conheci…” blá blá blá. Quero que você saiba o que está guardado dentro de mim, dentro do meu coração. Eu tô escrevendo essa carta com tudo que está dentro de mim… Essa semana, de fato, não foi uma das melhores falando por nós, e tenho certeza que você concordaria comigo. Mas, mesmo não sendo uma semana das melhores, eu não consigo não te amar, não me importar, não cuidar e não pensar em você… E eu tenho certeza que você também não. E você não sabe o quanto isso me alegra, porque estamos aprendendo a lidar com o fato de que não vamos ter uma relação perfeita, e são esses momentos que vão mostrar se a gente realmente se ama.</p>
+        <p>Meu maior sonho desde que você chegou na minha vida como minha mulher é passar a minha vida ao seu lado. Não tenho ideia de como será meu futuro, mas de uma coisa eu tenho certeza: eu quero que ele seja ao seu lado… vivendo todas as fases, sejam elas boas ou ruins. É muito engraçado, porque meus planos eram diferentes, mas não consigo mais imaginar eles sem você ao meu lado. É você que eu quero e que vai ser! Enfim, era pra ser uma carta que eu queria escrever por dias, mas meu coração está cheio e escrevi tudo hoje… Dia 30/07/26, e finalizo às 04h16. Até eu te entregar, pode ser que eu escreva mais, mas só pra deixar registrado rs: te amo, meu amor, minha vida e minha futura esposa.</p>
+      </div>
+      <p class="letter-paper__signature">Com amor,<br><em>Kelvin.</em></p>
+      <div class="letter-download" id="letter-download">
+        <button class="letter-download__button" id="download-letter" type="button">
+          <span>Guardar essa carta</span><i aria-hidden="true">↓</i>
+        </button>
+        <p class="letter-download__status" id="letter-download-status" aria-live="polite"></p>
+      </div>
+      <span class="letter-paper__page" aria-hidden="true">K + L · 02</span>
+    </article>
+  </dialog>
+
+  <noscript><div class="noscript">Ative o JavaScript para viver esta surpresa por completo.</div></noscript>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
